@@ -12,7 +12,7 @@ const explorerSchema = new Schema({
         required: true
     },
     expeditionsParticipated: {
-        type: Number,
+        type: String,
         required: true
     }
 })
